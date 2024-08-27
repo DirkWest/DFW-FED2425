@@ -26,11 +26,11 @@
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Thuispagina ABN-AMRO   
-  <img src="readme-images/smal/IMG_0696.JPG" width="375px" alt="Thuispagina van ABN-AMRO Bank.">
+  <img src="readme-images/smal/IMG_0696.JPG" width="375px" alt="Thuispagina van ABN-AMRO Bank">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Persoonlijk Rekeningoverzicht   
-  <img src="readme-images/smal/IMG_0698.png" width="375px" alt="Persoonlijke Omgeving ABN-AMRO Bank.">
+  <img src="readme-images/smal/IMG_0698.png" width="375px" alt="Persoonlijke Omgeving ABN-AMRO Bank">
 </details>
 
 
