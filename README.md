@@ -1,14 +1,4 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
 
 ## Jij
 
@@ -23,12 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Je focus:
   Voor dit project zal mijn focus voornamelijk op responsiveness liggen. Dit heb ik bij voorgaande opdrachten waarvoor ik moest coderen eigenlijk een beetje naast mij gelegd. Toen heb ik vooral gefocust op de opmaak van de website. 
- 
 </details>
-
-
-
-
 
 ## Je website
 <details open>
