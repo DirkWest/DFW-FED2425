@@ -23,9 +23,6 @@
 
 
 
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+.kaartAchtergrondSubtiel ul li img {
+	max-width: 25px;
+}
