@@ -32,7 +32,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Je website
 <details open>
-  <summary>KIck-Off Werkgroep</summary>
+  <summary>Kick-Off Werkgroep</summary>
 
   ### Je opdracht:
   Voordat ik überhaupt een website uit kon kiezen moest ik eerst even na gaan denken over welke websites ik nou eigenlijk gebruik. Toen kwam ik tot de conclusie dat dat er dus eigenlijk niet zo heel erg veel zijn. En dat ik vooral nog regelmatig gebruik maak van de websites van een van mijn banken. Andere websites die ik weleens gebruik zijn amazon of netflixt. Nou ben ik niet zo'n fan van het ontwerp van deze websites, maar vind ik het websiteontwerp van de website van ABN-AMRO best wel netjes. Daarnaast denk ik ook dat het namaken van die website precies genoeg uitdaging zal zijn voor mij.
