@@ -12,7 +12,7 @@
   Rood
 
   #### Je focus:
-  Voor dit project zal mijn focus voornamelijk op responsiveness liggen. Dit heb ik bij voorgaande opdrachten waarvoor ik moest coderen eigenlijk een beetje naast mij gelegd. Toen heb ik vooral gefocust op de opmaak van de website. 
+  Voor dit project zal mijn focus voornamelijk op de surface plane leggen. Bij de vorige opdracht waarmee ik bezig ben geweest heb ik aandacht besteed aan responsiveness. En bij deze opdracht wil ik dus aan de slag gaan met de surface plane. 
 </details>
 
 ## Je website
