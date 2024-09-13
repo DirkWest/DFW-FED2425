@@ -18,157 +18,89 @@
 
 	<body>
 		<header>
-			NL | EN
-			Privé <img src="svg/arrow_down.svg" alt="Pijltje omlaag">
-			<img src="svg/ABN_logo.svg" alt="ABN AMRO logo"> <img src="svg/lock.svg" alt="Pictogram van een hangslot">Inloggen
+			<p id="taalKeuze">NL | EN</p>
+			<p>Privé</p><img src="svg/arrow_right.svg" alt="Pijltje naar rechts.">
+			<img src="svg/ABN_logo.svg" alt="Logo van ABN AMRO">
+			<button><img src="svg/lock.svg" alt="">Inloggen</button>
 			<nav>
 				<ul>
-					<li>Producten <img src="svg/arrow_down.svg" alt="Meer opties"></li>
-					<li>Uw Situatie <img src="svg/arrow_down.svg" alt="Meer opties"></li>
-					<li>App en Internetbankieren <img src="svg/arrow_down.svg" alt="Meer opties"></li>
-					<li>Service en Contact <img src="svg/arrow_down.svg" alt="Meer opties"></li>
+					<li><a href="#">Home</a></li>
+					<li>Producten</li>
+					<li>Uw situatie</li>
+					<li>App en Internetbankieren</li>
+					<li>Service en Contact</li>
 				</ul>
-				<img src="svg/vergrootglas.svg" alt="Zoeken op de website.">
+				<img src="svg/vergrootglasWit.svg" alt="">
 			</nav>
-			<img src="images/Snackbar_landschap.jpeg" alt="Jongen in een snackbar.">
 		</header>
+	
 		<main>
-			<!-- Promotie jongerenrekening -->
-			<article id="promoContainer">
+			<img src="images/Snackbar_landschap.jpeg" alt="">
+			<div id="h1Kaart">
 				<h1>Begin met loslaten</h1>
-				<h2>Nu €30 cadeau bij een jongerenrekening</h2>
-				<section id="lmKnop">
-					Lees meer
-				</section>
+				<h3>Nu €30 cadeau bij een jongerenrekening</h3>
+				<button>Lees meer</button> 
+				<!-- Voor nu gebruik gemaakt van een button omdat er geen link naar andere pagina is. -->
+			</div>
+
+			<h2>Goedemiddag,</h2>
+			<p>Waarmee kunnen we u vooruit helpen?</p>
+			<section>
+				<h3 class="Zoekvlak">Zoeken</h3>
+				<img src="svg/vergrootglas.svg" alt="Zoeken">
+			</section>
+			
+			<ul>
+				<li>
+					<img src="svg/slot_groen.svg" alt="">
+					<p>Zoeken</p>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<img src="svg/bankpas.svg" alt="">
+					<a href="betalen.html">Betalen</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<img src="svg/verzekeren.svg" alt="">
+					<p>Verzekeren</p>
+				</li>
+				<li>
+					<img src="svg/huis.svg" alt="">
+					<p>Hypotheken</p>
+				</li>
+				<li>
+					<img src="svg/lenen.svg" alt="">
+					<p>Lenen</p>
+				</li>
+				<li>
+					<img src="svg/beleggen.svg" alt="">
+					<p>Beleggen</p>
+				</li>
+				<li>
+					<img src="svg/spaarvarken.svg" alt="">
+					<p>Sparen</p>
+				</li>
+				<li>
+					<img src="svg/strandstoel.svg" alt="">
+					<p>Pensioen</p>
+				</li>
+			</ul>
+			<article class="cardSubtiel">
+				<img src="svg/mensen.svg" alt="">
+				<h3>Uw situatie</h3>
+				<ul>
+					<li><a href="#">Studenten</a></li>
+					<li><a href="#">Ouder en kind</a></li>
+					<li><a href="#">Preferred Banking</a></li>
+					<li><a href="#">Senioren</a></li>
+					<li><a href="#">Overlijden melden</a></li>
+				</ul>
 			</article>
-
-			<!-- Goedenavond & Zoeken -->
-			<h2>Goedenmorgen</h2>
-			<h3>Waar kunnen we u mee vooruit helpen?</h3>
-			<div>
-				Zoeken naar...
-				<img src="svg/vergrootglas.svg" alt="Zoek">
-			</div>
-
-			<!-- Knoppen naar hoofdpagina's -->
-			<div class="knopKaartBreed">
-				<img src="svg/slot_groen.svg" alt="Pictrogram van een groen slot">
-				Inloggen
-			</div>
-			<div class="knopKaartBreed">
-				<img src="svg/bankpas.svg" alt="Pictrogram van een groene bankpas">
-				Betalen
-			</div>
-			<div class="knopKaartBreed">
-				<img src="svg/verzekeren.svg" alt="Pictogram van een paraplu">
-				Verzekeren
-			</div>
-			<div class="knopKaartBreed">
-				<img src="svg/huis.svg" alt="Pictogram van een huis">
-				Hypotheek
-			</div>
-			<div class="knopKaartBreed">
-				<img src="svg/lenen.svg" alt="Pictrogram van een bankbiljet en muntstukken">
-				lenen
-			</div>
-			<div class="knopKaartBreed">
-				<img src="svg/beleggen.svg" alt="Pictogram van een periodieke grafiek">
-				Beleggen
-			</div>
-			<div class="knopKaartBreed">
-				<img src="svg/spaarvarken.svg" alt="Pictrogram van een groen spaarvarken">
-				Sparen
-			</div>
-			<div class="knopKaartBreed">
-				<img src="svg/strandstoel.svg" alt="Pictogram van een ligbed met parasol">
-				Pensioen
-			</div>
-
-			<!-- Snelmenu -->
-			<div class="kaartAchtergrondSubtiel">
-				<img src="svg/mensen.svg" alt="Pictrogram van twee personen">
-				<h2>Uw situatie</h2>
-					<ul>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Studenten</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Ouder en kind</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Preffered banking</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijtje naar rechts">Senioren</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Overlijden melden</li>
-					</ul>
-			</div>
-			<div class="kaartAchtergrondSubtiel">
-				<img src="svg/laptop.svg" alt="Pictogram van een laptop">
-				<h2>Direct regelen</h2>
-					<ul>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Lening inzien in Internet Bankieren</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Betaalpas blokkeren</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Betaalpas vervangen</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Bankrekening openen</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Hulp bij geldzaken</li>
-					</ul>
-			</div>
-			<div class="kaartAchtergrondSubtiel">
-				<img src="svg/archiefmap.svg" alt="Pictogram van een archiefmap met een vergrootglas">
-				<h2>Meest gezocht</h2>
-					<ul>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Hypotheek Berekenen</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">E.dentifier</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Creditcard</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Compensatie rente doorlopende kredieten</li>
-						<li><img src="svg/pijltjeGroot.svg" alt="Pijltje naar rechts">Daglimiet wijzigen</li>
-					</ul>
-			</div>
-
-			<!-- Nieuws & promo artikelen -->
-			<img src="images/vaderZoonTerras.jpeg" alt="Foto van een vader en zijn zoon op een terras">
-			<h2>Binnenkort op vakantie?</h2>
-			Beantwoord 4 vragen en check of je jouw vakantie geldzaken goed hebt voorbereid.
-			<div class="knopKaartBreedDonker">
-				<p>Doe de vakantiecheck</p>
-			</div>
-
-			<!-- Nieuws & promo artikelen op kaart -->
-			<div class="kaartAchtergrondSubtiel">
-				<h2>Ook interessant voor u</h2>
-				<img src="images/mevrouw.jpg" alt="Foto van een mevrouw">
-				<h3>Maximale hypotheek berekenen</h3>
-				<p>Bent u op zoek naar een koophuis? Dan wilt u eerst weten hoeveel u kunt lenen. Bereken eenvoudig zelf hoeveel hypotheek u kunt krijgen en uw maandbedrag. Zo weet u in welke prijsklasse u kunt gaan zoeken én hoeveel dat gaat kosten.</p>
-					<div class="knopKaartBreedDonker">
-						<p>Hypotheek berekenen</p>
-					</div>
-				<p>Hypotheekafspraak maken <img src="svg/arrow_right.svg" alt="Pijltje naar rechts"></p>
-			</div>
-			<div class="kaartAchtergrondSubtiel">
-				<img src="images/Telefoon.jpg" alt="Afbeelding van een persoon met een telefoon in haar hand bij een pinapparaat.">
-				<h3>Grote uitgave? Verhoog op tijd uw daglimiet</h3>
-				<p>Gaat u een groot bedrag overboeken of betalen? Zorg ervoor dat u eerst uw daglimiet wijzigt in de app. Doe dit op tijd, want uw hogere daglimiet gaat na 4 uur in. Betalen via de ABN AMRO app doet u nu helemaal zónder e.dentifier.</p>
-					<div class="knopKaartBreedDonker">
-						<p>Wijzig uw daglimiet zo <img src="svg/arrow_right.svg" alt="Pijltje naar rechts"></p>
-					</div>
-			</div>
-			<div class="kaartAchtergrondSubtiel">
-				<img src="images/Studentondernemer.jpg" alt="Foto van een studente met haar armen over elkaar.">
-				<h3>Echt iets voor jou: studeren en ondernemen</h3>
-				<p>Jouw idee is goud waard! Zelf ondernemen betekend vrijheid en flexibiliteit. Zeker nu je ook nog weinig verplichtingen hebt. Het perfecte moment om te beginnen. Vraag nu een zakelijke rekening aan en krijg die 12 maanden gratis.
-					<div class="knopKaartBreedDonker">
-						<p>Ondernemen als student <img src="svg/arrow_right.svg" alt="Pijltje naar rechts"></p>
-					</div>
-				</p>
-			</div>
 		</main>
-
+	
 		<footer>
-			<section id="footerSec1">
-				<h3>Hulp nodig?</h3>
-				<p>Bekijk op de pagina Service & Contact hoe we u kunnen helpen.</p>
-				<button id="footer">Naar Service en Contact</button>
-			</section>
-			<section id="footerSec2">
-				<p>Over ABN AMRO  |  Klacht indienen  |  Werken bij ABN AMRO  |  Toeganlijkheid  |  Omgangsregels  |  Duurzaamheid  | Veiligheid  | Privacy en cookies  |  Disclaimer</p>
-				<p id="socialMedia"></p>
-				<p>© 2024 Dirk Westerbeek</p>
-			</section>
+	
 		</footer>
 	</body>
-	
 </html>
