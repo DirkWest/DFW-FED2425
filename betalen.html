@@ -1,25 +1,288 @@
 <!DOCTYPE html>
 <html lang="nl">
 
-    <head>
-	    <meta charset="UTF-8">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <link href="styles/style.css" rel="stylesheet">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="styles/style.css" rel="stylesheet">
 	
-	    <!-- Opmaak Tabbladknop -->
-	    <title>Persoonlijk Rekeningoverzicht</title>
-	    <link rel="icon" href="images/ABNAMRO_favicon.ico">
-    </head>
+		<!-- Opmaak Tabbladknop -->
+		<title>Betalen</title>
+		<link rel="icon" href="images/ABNAMRO_favicon.ico">
+
+		<!-- Lettertype -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	</head>
 
     <body>
-        <header>
+		<header>
+			<p id="taalKeuze">NL | EN</p>
+			<a href="#">Privé <img src="svg/arrow_down.svg" alt=""></a>
+			<img src="svg/ABN_logo.svg" alt="Logo van ABN AMRO">
+			<button><img src="svg/lock.svg" alt="">Inloggen</button>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Producten</a></li>
+					<li><a href="#">Uw situatie</a></li>
+					<li><a href="#">App en Internetbankieren</a></li>
+					<li><a href="#">Service en Contact</a></li>
+				</ul>
+				<img src="svg/vergrootglasWit.svg" alt="">
+			</nav>
+			<a href="#"><img src="svg/arrow_left.svg" alt="Vorige pagina">betalen</a>
+		</header>
 
-        </header>
         <main>
+			<section>
+				<img src="images/mevrouw_aan_eettafel.jpg" alt="">
+				<h1>Bankerekening openen</h1>
+				<h2>Ik wil een bankrekening openen voor</h2>
+				<ul>
+					<li>
+						<a href="#">
+							<img src="svg/mijzelf.svg" alt="">
+							<h3>Mezelf</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/samen.svg" alt="">
+							<h3>Ons Samen</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/ons_kind.svg" alt="">
+							<h3>Ons kind</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/extra_rekening.svg" alt="">
+							<h3>Een extra rekening</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+				</ul>
+			</section>
 
-        </main>
+			<section>
+				<article>
+					<img src="images/man_op_bank.jpg" alt="">
+					<h2>Bankrekening openen</h2>
+					<p>Fijn dat u interesse heeft in een bankrekening bij ABN AMRO. Hiermee regelt u straks veilig en makkelijk uw dagelijkse bankzaken. Geld overmaken of een anlert instellen als uw salaris is gestort: het is simpel met de bekroonde ABN AMRO app. En heeft u hulp nodig? Dan staan we voor u klaar, 24/7.</p>
+				</article>
+				<article>
+					<img src="images/mensen_in_eetkamer.jpg" alt="">
+					<h2>Gratis Overstapservice</h2>
+					<p>Overstappen van bank? Met de gratis <em>overstapservice</em> stapt u soepel over met uw bankzaken. Wij nemen contact op met uw oude bank en sturen al uw betaalverkeer 13 maanden lang door naar uw nieuwe ABN AMRO rekening.</p>
+					<a href="#">Ja, vertel meer!</a>
+				</article>
+			</section>
+
+			<article>
+				<!-- Tekengrootte moet hier nog veranderd worden, maar is een article dus mag geen p zonder h1 of h2 bevatten. Is niet zo netjes gedaan op de website van ABNAMRO :( -->
+				<a href="#"> 
+					<img src="svg/blaadje.svg" alt="">
+					<h2>Onze betaalpassen zijn gemaakt van gerecycled plastic. Zo besparen we 61% CO2-Uitstoot bij het maken van nieuwe pasjes. Bekijk wat we nog meer doen voor een duurzame wereld</h2>
+					<img src="svg/arrow_right.svg" alt="">
+				</a>
+			</article>
+
+			<section>
+				<article>
+					<img src="images/stel_op_bank.jpg" alt="">
+					<h2>Stel zelf uw betaalpakket samen</h2>
+					<p>In het BasisPakket Betalen zitten een bankrekening, een betaalpas en toegang tot online bankieren. Dit is een flexiebel betaalpakket. U kiest zelf wat u nog bij uw basispakket wilt, bijvoorbeeld een creditcard of extra betaalpas. Zo betaalt u alleen voor wat u gebruikt. Verandert er iets? Geen probleem, online aanpassen is zo gebeurd.</p>
+					<a href="#">Meer over BasisPakket Betalen</a>
+				</article>
+				<article>
+					<img src="images/ondernemer_op_bank.jpg" alt="">
+					<h2>Zakelijke bankrekening openen</h2>
+					<p>Bent u onlangs met uw onderneming begonnen? Kies voor de alles-in-één-oplossing van ABN AMRO en vraag vandaag nog uw zakelijke rekening aan.</p>
+					<ul>
+						<li>Uw zakelijke transacties gescheiden van uw privérekening</li>
+						<li>Een directe koppeling met uw boekhouding</li>
+						<li>Alle belangrijke informatie in uw dashboard</li>
+					</ul>
+					<a href="#">Meer informatie</a>
+				</article>
+				<article>
+					<img src="images/expat.jpg" alt="">
+					<h2>For international clients</h2>
+					<p>Welcome to the Netherlands, welcome to ABN AMRO. Open your bank account and get everything you need to do your banking in the Netherlands.</p>
+					<a href="#">Open now</a>
+					<a href="#">Read more <img src="svg/arrow_right.svg" alt=""></a>
+				</article>
+			</section>
+        
+			<section>
+				<article>
+					<img src="svg/europees_bankieren.svg" alt="">
+					<h2>De oorlog in Oekraïne: lees meer over de sancties en uw bankzaken > </h2>
+				</article>
+				<article>
+					<h2>Betaalrekening voor Oekraïense vluchtelingen</h2>
+					<p>Komt u uit Oekraïne en heeft u een geldig Oekraïens paspoort? Dan kunt u nu bij ABN AMRO een betaalrekening opnenen via de ABN AMRO app. Binnen een paar werkdagen ontvangt u dan uw bankpas.</p>
+					<a href="#">Betaalrekening openen</a>
+				</article>
+			</section>
+
+			<section>
+				<h2>Meer informatie over een bankrekening</h2>
+				
+				<article>
+					<h3>Voor mezelf</h3>
+					<p>Voor slechts € 3,25 heeft u een uitstekende bankrekening met betaalpas bij een betrouwbare bank.</p>
+					<a href="#">Rekening voor mijzelf</a>
+				</article>
+				<article>
+					<h3>Voor ons samen</h3>
+					<p>Een gezamenlijke rekening met 2 betaalpassen kost € 4,75 per maand.</p>
+					<a href="#">Gezamenlijke rekening</a>
+				</article>
+				<article>
+					<h3>Voor mijn kind</h3>
+					<p>Een gratis rekening waarmee uw kind kan betalen én sparen. De bankrekening openen regelt u gewoon online.</p>
+					<a href="#">Extra rekening</a>
+				</article>
+			</section>
+			
+			<section>
+				<h2>Daarom bij ABN AMRO</h2>
+				<img src="svg/247.svg" alt="">
+				<h3>Altijd en overal online</h3>
+				<img src="svg/smartwatch.svg" alt="">
+				<h3>U bepaalt hoe u betaalt</h3>
+				<img src="svg/kluis.svg" alt="">
+				<h3>Al uw geld op één veilige plek</h3>
+			</section>
+
+			<article>
+				<button>Verberg</button>
+				<h2>Kosten bankrekening</h2>
+				<p>Benieuwd wat een rekening kost? We hebben de maandelijkste kosten van de meest voorkomende situaties op een rijtje gezet.</p>
+				<table>
+					<tr>
+						<td>Betaalrekening + betaalpas</td>
+						<td>€ 3,25</td>
+					</tr>
+					<tr>
+						<td>Betaalrekening + betaalpas + creditcard</td>
+						<td>€ 5,30</td>
+					</tr>
+					<tr>
+						<td>Gezamenlijke rekening: Betaalrekening + 2 betaalpassen</td>
+						<td>€ 4,75</td>
+					</tr>
+					<tr>
+						<td>Gezamenlijke rekening: Betaalrekening + 2 betaalpassen + creditcard</td>
+						<td>€ 6,80</td>
+					</tr>
+					<tr>
+						<td>Gezamenlijke rekening + beide een aparte rekening =  3 betaalrekeningen + 4 betaalpassen</td>
+						<td>€ 11,25</td>
+					</tr>
+				</table>
+				<!-- Bijzondere link die andere opmaak nodig heeft -->
+				<a href="#">Bekijk alle tarieven voor dagelijkse bankzaken</a>
+			</article>
+
+			<section>
+				<h2>Meest gestelde vragen</h2>
+
+				<article class="Afwijkend">
+					<h3>Hoe kan ik een bankrekening openen?</h3>
+					<img src="svg/arrow_down.svg" alt="Uitklappen">
+					<p>U kunt een rekening openen via de ABN AMRO app of door online een afspraak te maken. Het is niet nodig een kantoor te bezoeken. Om een bankrekening te openen, kiest u eerst welk type bankrekening u wilt hebben. Zo kunt u bijvoorbeeld kiezen voor uw eigen rekening of een samen met uw partner. Vervolgens hebben we een aantal gegevens van u nodig zoals naam, adres en woonplaats. Tot slot moet u zich identificeren. Dit kan met een Nederlands identiteitsbewijs, een internationaal paspoort of een verblijfsvergunning. Alles ingevuld? Controleer of alles klopt en bevestig uw aanvraag.</p>
+				</article>
+				<article class="Afwijkend">
+					<h3>Hoe lang duurt het voordat mijn rekening actief is?</h3>
+					<img src="svg/arrow_down.svg" alt="Uitklappen">
+					<p>Nadat u de bankrekening heeft geopend krijgt u binnen 5 werkdagen uw betaalpas. Is de betaalpas binnen? Dan kunt u die op <a href="#"></a>drie manieren activeren. Zodra de pas geactiveerd is kunt u starten met online bankieren.</p>
+				</article>
+				<article class="Afwijkend">
+					<h3>Ik ben al klant, kan ik een extra rekening openen?</h3>
+					<img src="svg/arrow_down.svg" alt="Uitklappen">
+					<p>Een extra rekening is snel en simpel geopend. Met een <a href="#">extra rekening</a> kunt u geld apart zetten voor bijvoorbeeld uw boodschappen of vaste lasten. Zo heeft u altijd voldoende geld achter de hand voor onverwachte uitgaven of om iets leuks mee te doen.</p>
+					<p>Let op: u mag een privérekening niet gebruiken voor uw bedrijf of beroep. Bekijk het verschil tussen een <a href="#">zakelijke rekening en een privérekening</a>.</p>
+				</article>
+				<article class="Afwijkend">
+					<h3>Kan ik een rekening openen als ik jonger ben dan 18 jaar?</h3>
+					<img src="svg/arrow_down.svg" alt="Uitklappen">
+					<p>Jongeren onder de 18 jaar kunnen geen betaalrekening openen zonder toestemming van hun ouders. Bij ABN AMRO kunnen jouw ouders een rekening voor je openenen. Zij bepalen vervolgens wat er wel en niet kan met de rekening. Betalen met iDEAL bijvoorbeeld of een limiet voor pinbetalingen.</p>
+				</article>
+				<article class="Afwijkend">
+					<h3>Mag ik een privérekening ook zakelijk gebruiken?</h3>
+					<img src="svg/arrow_down.svg" alt="Uitklappen">
+					<p>Nee, u mag een privérekening niet gebruiken voor uw bedrijf of beroep. Bekijk het verschil tussen een <a href="#">zakelijke rekening en privérekening</a>.</p>
+				</article>
+			</section>
+
+			<h2>Ook handig</h2>
+			<!-- Deze section moet een HELE subtiele card/achtergrond krijgen -->
+			<ul>
+				<li>
+					<a href="#">Studentenrekening</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<a href="#">International Clients</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<a href="#">Apple Pay</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<a href="#">Google Pay</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<a href="#">Extra betaalrekening openen</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<a href="#">Rekening openen via de ABN AMRO app</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+				<li>
+					<a href="#">Creditcard aanvragen</a>
+					<img src="svg/arrow_right.svg" alt="">
+				</li>
+			</ul>
+		</main>
+
         <footer>
+			<article>
+				<h2>Hulp nodig?</h2>
+				<p>Bekijk op de pagina service en contact hoe we u kunnen helpen.</p>
+				<img src="svg/contactdoos.svg" alt="">
+				<a href="#">Naar Service en Contact</a>
+			</article>
 
+			<!-- Ik moet hier even gaan kijken wat ik wil doen met de eerste p. Op de website van ABN AMRO is het een ul met allemaal a's. -->
+			<article>
+				<p>Over ABN AMRO  |  Klacht Indienen  |  Werken bij ABN AMRO  |  Toegankelijkheid  |  Omgangsregels  |  Duurzaamheid  |  Veiligheid  |  Privacy en cookies  |  Disclaimer</p>
+				<section>
+					<a href="#"><img src="svg/socials/facebook.svg" alt="Facebook"></a>
+					<a href="#"><img src="svg/socials/twitter.svg" alt="X"></a>
+					<a href="#"><img src="svg/socials/linkedin.svg" alt="LinkedIn"></a>
+					<a href="#"><img src="svg/socials/youtube.svg" alt="youtube"></a>
+					<a href="#"><img src="svg/socials/nieuws.svg" alt="ABN AMRO Nieuws"></a>
+				</section>
+				<p>© 2024 Dirk Westerbeek | ABN AMRO</p>
+			</article>
         </footer>
     </body>
 

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 72 72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-7 {
+        fill: #ffd100;
+      }
+
+      .cls-4 {
+        opacity: .08;
+      }
+
+      .cls-5 {
+        fill: #009185;
+        opacity: .3;
+      }
+
+      .cls-8 {
+        opacity: .2;
+      }
+
+      .cls-6 {
+        fill: #005e5d;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="57.131" y1="13.822" x2="4.39" y2="66.562" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009695"/>
+      <stop offset="1" stop-color="#005e5d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="52.941" y1="17.09" x2="17.682" y2="52.349" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00c4bb"/>
+      <stop offset="1" stop-color="#009185"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="46.75" y1="27.284" x2="32.743" y2="41.29" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Layer_6" data-name="Layer 6"/>
+  <g id="Layer_5" data-name="Layer 5">
+    <path class="cls-4" d="M49.972,13.72l-39.3,2.748c-1.814,.127-3.2,1.57-3.084,3.223l2.86,40.9,.279,3.99,6.983-.488,3.711-4.269,23.942-1.674,4.269,3.711,6.983-.488-.279-3.99-2.873-41.083c-.115-1.651-1.671-2.706-3.49-2.579Z"/>
+    <polygon class="cls-6" points="19.996 60.035 12.996 60.035 12.996 56.035 23.996 56.035 19.996 60.035"/>
+    <polygon class="cls-6" points="58.996 60.035 51.996 60.035 47.996 56.035 58.996 56.035 58.996 60.035"/>
+    <path class="cls-3" d="M55.694,12.035c1.824,0,3.302,1.162,3.302,2.816V56.035H12.996V15.036c0-1.657,1.484-3,3.302-3H55.694Z"/>
+    <rect class="cls-2" x="17.996" y="17.035" width="36" height="34" rx="1.002" ry="1.002"/>
+    <path class="cls-5" d="M19,51.037c-.555,0-1.004-.448-1.004-1V18.035c0-.552,.45-1,1.004-1H52.992c.555,0,1.004,.448,1.004,1L19,51.037Z"/>
+    <path class="cls-7" d="M16.496,20.037h1.5v8h-1.5c-.828,0-1.5-.672-1.5-1.5v-5c0-.828,.672-1.5,1.5-1.5Z"/>
+    <path class="cls-7" d="M16.496,40.037h1.5v8h-1.5c-.828,0-1.5-.672-1.5-1.5v-5c0-.828,.672-1.5,1.5-1.5Z"/>
+    <circle class="cls-1" cx="39.996" cy="34.037" r="8"/>
+    <circle class="cls-7" cx="39.996" cy="34.037" r="5"/>
+    <circle class="cls-8" cx="39.996" cy="34.037" r="3"/>
+  </g>
+  <g id="Layer_9" data-name="Layer 9"/>
+  <g id="Layer_3" data-name="Layer 3"/>
+  <g id="Layer_4" data-name="Layer 4"/>
+  <g id="Layer_7" data-name="Layer 7"/>
+</svg>

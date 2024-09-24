@@ -1,72 +1,114 @@
 :root {
+	/* Achtergrondkleuren */
 	--achtergrond1: #f9f9f9;
-	--boxSchaduw: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
-	--space-s: 0.5em;
-	--space-m: 1em;
+
+	/* Letteropmaak */
+	--witteTekst: #FFFFFF;
+	--zwarteTekst: #222222; 
+	--donkerGrijzeTekst: #666666;
+	--ietsMinderDonkerGrijzeTekst: #757575;
+	--donkerGroeneTekst: #004c4c;
+	--groeneTekst: #005e5d;
+	--lichtGroeneTekst: #00928e;;
+	--h1: 2.5em;
+	--h2: 1.75em;
+	--h3: 1.25em;
+	--normaleTekst: 1em;
+	--aNormaal: 1em; 
+	--aGroot: 1.25em;
+	--lichtGewicht: 400;
+	--vetteTekst: 500;
+
+	--afwijkendGroeneTekst: #00716B;
+	--afwijkendLettertype: "Roboto", Helvetica, Arial, sans-serif, Courier, monospace;
+
+	/* Schaduwen */
+	--aanwezigeSchaduw: 0 4px 8px 0 rgba(3, 1, 1, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
+	--subtieleSchaduw: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
 }
 
 /* Stijl voor de hele website */
 body {
-	font-family: "Roboto Condensed", sans-serif;
-	background-color:var(--achtergrond1);
+	font-family: "Roboto Condensed", Helvetica, Arial, sans-serif, Courier, monospace;
 	box-sizing: border-box;
+	background-color:var(--achtergrond1);
+	font-weight: var(--lichtGewicht);
 }
 
-a {
-	text-decoration: none;
-	color: black;
-}
-
-/* Tijdelijke opmaak */
+/* Opmaak van de header */
 header {
+	font-family: var(--afwijkendLettertype);
+	font-size: 1em;
 }
 
-/* Tijdelijke opmaak */
-nav img{
-	border:  1px solid green
+header p:nth-of-type(1) {
+	font-size: 0.875em;
+	color: var(--afwijkendGroeneTekst);
 }
 
-main ul {
-	
+header a {
+	font-size: 0.875em;
+	color:#222222;
 }
 
-main ul li {
-	max-height: 4.5em;
+header section:nth-of-type(1) {
 	display: flex;
+	justify-content: space-between;
 	align-items: center;
-	list-style: none;
-	font-size: 1.5em;
-	display: flex;
-	flex-wrap: wrap;
-	background-color: white;
-	padding: var(--space-s);
-	margin-bottom: 0.4em;
-	margin-top: 0.4em;
-	box-shadow: var(--boxSchaduw);
-	border-radius: 0.2em;
-	
+	padding-bottom: 0.3125em;
+	margin: 0.50em 0.50em 1em 0.75em; 
 }
 
-main ul img {
-	width: 4em;
-	transform: scale(1.3);
-	padding: 0.5em;
+header section:nth-of-type(1) img {
+	margin: 0rem 0rem 0rem 0.50rem;
+	height: 0.875rem;
+	width: 0.875rem;
 }
 
-main ul li p {
-	margin-right: auto; 
+/* Opmaak van de footer */
+footer {
+	font-family: var(--afwijkendLettertype);
+	font-size: 0.875em;
 }
 
-main ul li a {
-	margin-right: auto;
+footer h2 {
+	font-weight: 500;
+	font-size: 0.875rem;
 }
 
-.cardSubtiel {
-	background-color: white;
-	
+/* Opmaak het stukje afwijkende opmaak onderaan de betalen pagina. */
+.Afwijkend {
+	font-family: var(--afwijkendLettertype);
 }
 
-.cardSubtiel img {
-	width: 2em;
-	transform: scale(2);
+.Afwijkend h3 {
+	color: var(--afwijkendGroeneTekst);
+	font-weight: 500;
+	font-size: 1.125em; 
+}
+
+/* Basisopmaak h1, h2, h3, p en a */
+h1 {
+	font-size: var(--h1);
+	font-weight: var(--lichtGewicht);
+}
+
+h2 {
+	font-size: var(--h2);
+	font-weight: var(--lichtGewicht);
+}
+
+h3 { 
+	font-size: var(--h3);
+	font-weight: var(--lichtGewicht);
+}
+
+p {
+	font-size: var(--normaleTekst);
+}
+
+a { 
+	font-size: var(--aNormaal);
+	color: var(--zwarteTekst); 
+	text-decoration: none;
 }

@@ -1,0 +1,62 @@
+body img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/* Tijdelijke opmaak */
+header {
+}
+
+/* Tijdelijke opmaak */
+nav img{
+	border:  1px solid green
+}
+
+main ul {
+
+}
+
+main ul li {
+	max-height: 4.5em;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	font-size: 1.5em;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	padding: var(--space-s);
+	margin-bottom: 0.4em;
+	margin-top: 0.4em;
+	box-shadow: var(--boxSchaduw);
+	border-radius: 0.2em;
+	
+}
+
+main ul img {
+	width: 4em;
+	transform: scale(1.3);
+	padding: 0.5em;
+}
+
+main ul li p {
+	margin-right: auto; 
+}
+
+main ul li a {
+	margin-right: auto;
+}
+
+.cardSubtiel {
+	background-color: white;
+	
+}
+
+.cardSubtiel img {
+	width: 2em;
+	transform: scale(2);
+}

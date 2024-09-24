@@ -14,21 +14,27 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
 		<header>
-			<p id="taalKeuze">NL | EN</p>
-			<p>Privé</p><img src="svg/arrow_right.svg" alt="Pijltje naar rechts.">
+			<section>
+				<p id="taalKeuze">NL | EN</p>
+				<a href="#">Privé <img src="svg/arrow_down.svg" alt=""></a>
+			</section>
 			<img src="svg/ABN_logo.svg" alt="Logo van ABN AMRO">
 			<button><img src="svg/lock.svg" alt="">Inloggen</button>
 			<nav>
 				<ul>
 					<li><a href="#">Home</a></li>
-					<li>Producten</li>
-					<li>Uw situatie</li>
-					<li>App en Internetbankieren</li>
-					<li>Service en Contact</li>
+					<li><a href="#">Producten</a></li>
+					<li><a href="#">Uw situatie</a></li>
+					<li><a href="#">App en Internetbankieren</a></li>
+					<li><a href="#">Service en Contact</a></li>
 				</ul>
 				<img src="svg/vergrootglasWit.svg" alt="">
 			</nav>
@@ -36,71 +42,205 @@
 	
 		<main>
 			<img src="images/Snackbar_landschap.jpeg" alt="">
-			<div id="h1Kaart">
+			<article id="h1Kaart">
 				<h1>Begin met loslaten</h1>
 				<h3>Nu €30 cadeau bij een jongerenrekening</h3>
 				<button>Lees meer</button> 
-				<!-- Voor nu gebruik gemaakt van een button omdat er geen link naar andere pagina is. -->
-			</div>
-
-			<h2>Goedemiddag,</h2>
-			<p>Waarmee kunnen we u vooruit helpen?</p>
-			<section>
-				<h3 class="Zoekvlak">Zoeken</h3>
-				<img src="svg/vergrootglas.svg" alt="Zoeken">
-			</section>
-			
-			<ul>
-				<li>
-					<img src="svg/slot_groen.svg" alt="">
-					<p>Zoeken</p>
-					<img src="svg/arrow_right.svg" alt="">
-				</li>
-				<li>
-					<img src="svg/bankpas.svg" alt="">
-					<a href="betalen.html">Betalen</a>
-					<img src="svg/arrow_right.svg" alt="">
-				</li>
-				<li>
-					<img src="svg/verzekeren.svg" alt="">
-					<p>Verzekeren</p>
-				</li>
-				<li>
-					<img src="svg/huis.svg" alt="">
-					<p>Hypotheken</p>
-				</li>
-				<li>
-					<img src="svg/lenen.svg" alt="">
-					<p>Lenen</p>
-				</li>
-				<li>
-					<img src="svg/beleggen.svg" alt="">
-					<p>Beleggen</p>
-				</li>
-				<li>
-					<img src="svg/spaarvarken.svg" alt="">
-					<p>Sparen</p>
-				</li>
-				<li>
-					<img src="svg/strandstoel.svg" alt="">
-					<p>Pensioen</p>
-				</li>
-			</ul>
-			<article class="cardSubtiel">
-				<img src="svg/mensen.svg" alt="">
-				<h3>Uw situatie</h3>
-				<ul>
-					<li><a href="#">Studenten</a></li>
-					<li><a href="#">Ouder en kind</a></li>
-					<li><a href="#">Preferred Banking</a></li>
-					<li><a href="#">Senioren</a></li>
-					<li><a href="#">Overlijden melden</a></li>
-				</ul>
 			</article>
+
+			<section class=s1>
+				<h2>Goedemiddag,</h2>
+				<p>Waarmee kunnen we u vooruit helpen?</p>
+				<section class="zoekbalk">
+					<h3 class="Zoekvlak">Zoeken</h3>
+					<img src="svg/vergrootglas.svg" alt="Zoeken">
+				</section>
+			
+				<ul>
+					<li>
+						<a href="#">
+							<img src="svg/slot_groen.svg" alt="">
+							<h3>Inloggen</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="betalen.html">
+							<img src="svg/bankpas.svg" alt="">
+							<h3>Betalen</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/verzekeren.svg" alt="">
+							<h3>Verzekeren</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<img src="svg/huis.svg" alt="">
+						<a href="#">Hypotheek</a>
+						<img class=kleiner src="svg/arrow_right.svg" alt="">
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/lenen.svg" alt="">
+							<h3>Lenen</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/beleggen.svg" alt="">
+							<h3>Beleggen</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/spaarvarken.svg" alt="">
+							<h3>Sparen</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="svg/strandstoel.svg" alt="">
+							<h3>Pensioen</h3>
+							<img class=kleiner src="svg/arrow_right.svg" alt="">
+						</a>
+					</li>
+				</ul>
+			</section>
+
+			<section class="s2">
+				<article>
+					<img src="svg/mensen.svg" alt="">
+					<h3>Uw situatie</h3>
+					<ul>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Studeren</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Ouder en kind</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Preferred Banking</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Senioren</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Overlijden melden</a>
+						</li>
+					</ul>
+				</article>
+				<article>
+					<img src="svg/laptop.svg" alt="">
+					<h3>Direct Regelen</h3>
+					<ul>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Lening inzien in Internet Bankieren</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Betaalpas blokkeren</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Betaalpas vervangen</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Bankrekening openen</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Hulp bij geldzaken</a>
+						</li>
+					</ul>
+				</article>
+				<article>
+					<img src="svg/archiefmap.svg" alt="">
+					<h3>Meest gezocht</h3>
+					<ul>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Hypotheek Berekenen</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">E.dentifier</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Creditcard</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Compensatie rente doorlopende kredieten</a>
+						</li>
+						<li>
+							<img class="kleiner" src="svg/pijltjeGroot.svg" alt="">
+							<a href="#">Daglimiet wijzigen</a>
+						</li>
+					</ul>
+				</article>
+			</section>
+
+			<img src="images/vaderZoonTerras.jpeg" alt="">
+			<h2>Binnekort op vakantie?</h2>
+			<p>Beantwoord 4 vragen en check of je jouw vakantie geldzaken goed hebt voorbereid.</p>
+			<a href="#">Doe de vakantiecheck</a>
+
+			<section class="s3">
+				<h2>Ook interessant voor u</h2>
+				<article>
+					<img src="images/mevrouw.jpg" alt="">
+					<h3>Wilt u de beurs volgen?</h3>
+					<p>Benieuwd naar de ontwikkelingen op de beurs? Onze experts houden u op de hoogte. Bekijk de beurstrends, beleggingsstrategie en het laatste beleggingsnieuws.</p>
+					<a href="#">Naar beursnieuws</a>
+				</article>
+				<article>
+					<img src="images/Telefoon.jpg" alt="">
+					<h3>Grote uitgave? Verhoog op tijd uw daglimiet</h3>
+					<p>Gaat u een groot bedrag overboeken of betalen? Zorg ervoor dat u eerst uw daglimiet wijzigt in de app. Doe dit op tijd, want uw hogere daglimiet gaat na 4 uur in. Betalen via de ABN AMRO app doet u nu helemaal zónder e.dentifier.</p>
+					<a href="#">Wijzig uw daglimiet zo</a>
+				</article> 
+				<article>
+					<img src="images/Studentondernemer.jpg" alt="">
+					<h3>Echt iets voor jou: studeren en ondernemen</h3>
+					<p>Jouw idee is goud waard! Zelf ondernemen betekend vrijheid en flexibiliteit. Zeker nu je ook nog weinig verplichtingen hebt. Het perfecte moment om te beginnen dus. Vraag nu een zakelijke rekening aan en krijg die 12 maanden gratis. </p>
+					<a href="#">Ondernemen als student</a>
+				</article>
+			</section>
 		</main>
 	
 		<footer>
-	
+			<article>
+				<h2>Hulp nodig?</h2>
+				<p>Bekijk op de pagina service en contact hoe we u kunnen helpen.</p>
+				<img src="svg/contactdoos.svg" alt="">
+				<a href="#">Naar Service en Contact</a>
+			</article>
+			<article>
+				<p>Over ABN AMRO  |  Klacht Indienen  |  Werken bij ABN AMRO  |  Toegankelijkheid  |  Omgangsregels  |  Duurzaamheid  |  Veiligheid  |  Privacy en cookies  |  Disclaimer</p>
+				<section>
+					<a href="#"><img src="svg/socials/facebook.svg" alt="Facebook"></a>
+					<a href="#"><img src="svg/socials/twitter.svg" alt="X"></a>
+					<a href="#"><img src="svg/socials/linkedin.svg" alt="LinkedIn"></a>
+					<a href="#"><img src="svg/socials/youtube.svg" alt="youtube"></a>
+					<a href="#"><img src="svg/socials/nieuws.svg" alt="ABN AMRO Nieuws"></a>
+				</section>
+				<p>© 2024 Dirk Westerbeek | ABN AMRO</p>
+			</article>
 		</footer>
 	</body>
 </html>
