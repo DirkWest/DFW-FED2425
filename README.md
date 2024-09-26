@@ -218,4 +218,7 @@
   2. bron 2
   3. ...
 
+https://bobdewebbouwer.com/gradient-verloopkleur-met-css/#:~:text=CSS3%20gradi%C3%ABnt,oranje%20(kleurcode%20%23ff5d00).
+
+
 </details>

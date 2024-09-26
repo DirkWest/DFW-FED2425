@@ -9,7 +9,8 @@
 	--ietsMinderDonkerGrijzeTekst: #757575;
 	--donkerGroeneTekst: #004c4c;
 	--groeneTekst: #005e5d;
-	--lichtGroeneTekst: #00928e;;
+	--lichtGroeneTekst: #00928e;
+	--geelKnop: #FFD220;
 	--h1: 2.5em;
 	--h2: 1.75em;
 	--h3: 1.25em;
@@ -33,7 +34,54 @@ body {
 	box-sizing: border-box;
 	background-color:var(--achtergrond1);
 	font-weight: var(--lichtGewicht);
+	margin: 0;
 }
+
+/* Basisopmaak h1, h2, h3, p en a */
+h1 {
+	font-size: var(--h1);
+	font-weight: var(--lichtGewicht);
+}
+
+h2 {
+	font-size: var(--h2);
+	font-weight: var(--lichtGewicht);
+}
+
+h3 { 
+	font-size: var(--h3);
+	font-weight: var(--lichtGewicht);
+}
+
+h4 {
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+p {
+	font-size: var(--normaleTekst);
+}
+
+a { 
+	font-size: var(--aNormaal);
+	color: var(--zwarteTekst); 
+	text-decoration: none;
+}
+
+/* Opmaak het stukje afwijkende opmaak onderaan de betalen pagina. */
+.Afwijkend {
+	font-family: var(--afwijkendLettertype);
+}
+
+.Afwijkend h3 {
+	color: var(--afwijkendGroeneTekst);
+	font-weight: 500;
+	font-size: 1.125em; 
+}
+
+
+
+
 
 /* Opmaak van de header */
 header {
@@ -56,7 +104,7 @@ header section:nth-of-type(1) {
 	justify-content: space-between;
 	align-items: center;
 	padding-bottom: 0.3125em;
-	margin: 0.50em 0.50em 1em 0.75em; 
+	margin: 0em 0.75em 0em 1em; 
 }
 
 header section:nth-of-type(1) img {
@@ -64,6 +112,184 @@ header section:nth-of-type(1) img {
 	height: 0.875rem;
 	width: 0.875rem;
 }
+
+header section:nth-of-type(2) {
+	display: flex;
+	justify-content: space-between;
+	height: 2.5em;
+	margin: 0em 0.50em 0.75em 1em ; 
+}
+
+header section:nth-of-type(2) img {
+	margin-top: 0.25em;
+}
+
+header section:nth-of-type(2) button {
+	display: flex;
+	font-size: 1em;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: var(--geelKnop);
+	border: none;
+	border-radius: 2px;
+	padding-right: 0.7em;
+}
+
+header section:nth-of-type(2) button img {
+	margin: 0rem 0.625rem 0rem 0rem;
+}
+
+nav {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul {
+	text-decoration: none;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	overflow: auto;
+	white-space: nowrap;
+	padding: 1em 0.5em 1em 0.5em;
+	background: linear-gradient(-296deg, var(--groeneTekst), #00857a);
+	margin-bottom: 0;
+	margin-top: -0.2em; 
+}
+
+nav ul li a {
+	font-size: 1em;
+	color: var(--witteTekst);
+	padding: 0em 0.5em 0em 0.75em; 
+}
+
+nav ul li a svg {
+	fill: white;
+	padding: 0 0 0 0.50em;
+}
+
+#zoekbalk {
+	float: right;
+	background-color: #00716B;
+	display: flex;
+	align-items: center;
+	padding: 0 0.9em 0 0.6em; 
+	margin-top: -0.2em;
+	box-shadow: rgba(34, 34, 34, 0.3) -8px 0px 16px, rgba(34, 34, 34, 0.024) -8px 0px 8px;;
+}
+
+
+/* Opmaak van de main */
+main img:nth-child(1) {
+	max-width: 100vw;
+}
+
+.container{
+	background: linear-gradient(to right, var(--donkerGroeneTekst), var(--afwijkendGroeneTekst));
+	padding: 0 0 1em 0;
+}
+
+#h1Kaart {
+	position: relative;
+	z-index: 1;
+	background-color: var(--witteTekst);
+	margin: -1.8em 1em 1em 1em;
+	padding: 1em;
+	box-shadow: var(--aanwezigeSchaduw);
+}
+
+#h1Kaart h1 {
+	margin: 0 0 0.5rem;
+}
+
+#h1Kaart h2 {
+	margin: 0 0 1rem ;
+}
+
+#h1Kaart button {
+	height: 3em;
+	background-color: var(--geelKnop);
+	padding: 0.5rem 1rem;
+	font-size: var(--normaleTekst);
+	border: none;
+	width: 100%;
+	border-radius: 2px;
+}
+
+.s1 h2:nth-of-type(1) {
+	color: var(--witteTekst);
+	margin: 0 0 0.2em 0; 
+	display: flex;
+	justify-content: center;
+}
+
+.s1 .container h3 {
+	color: var(--witteTekst);
+	display: flex;
+	justify-content: center;
+	margin: 0 0 1em 0;
+}
+
+.zoekbalk2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--witteTekst);
+	margin: 0 2em 3em 2em ; 
+	padding: 0 1em;
+	position: relative;
+	border-radius: 2px;
+	color: #757575;
+	border: 1px solid #d3e0e0;
+}
+
+.zoekbalk2 h4 {
+	margin: 1em 0; 
+}
+
+.s1 ul {
+	margin-top: -2.5em;
+	padding: 1em; 
+	position: relative; 
+}
+.s1 ul li {
+	display: flex;
+	align-items: center;
+	background-color: var(--witteTekst);
+	text-decoration: none;
+	list-style: none;
+	margin-bottom: 0.5em;
+	border-radius: 0.2rem;
+	box-shadow: var(--aanwezigeSchaduw);
+	padding: 0.5rem 1rem;
+	height: 3.5em;
+}
+
+.s1 ul li a {
+	color: var(--afwijkendGroeneTekst);
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.s1 ul li a img {
+	height: 3.5em; 
+	width: 3.5em;
+	margin: 0 0.5em 0 0; 
+}
+
+.s1 ul li a h3 {
+	padding: 0 0.5em;
+}
+
+.s1 ul li a svg {
+	margin-right: 1em;;
+	margin-left: auto; 
+}
+
+
+
 
 /* Opmaak van de footer */
 footer {
@@ -76,39 +302,3 @@ footer h2 {
 	font-size: 0.875rem;
 }
 
-/* Opmaak het stukje afwijkende opmaak onderaan de betalen pagina. */
-.Afwijkend {
-	font-family: var(--afwijkendLettertype);
-}
-
-.Afwijkend h3 {
-	color: var(--afwijkendGroeneTekst);
-	font-weight: 500;
-	font-size: 1.125em; 
-}
-
-/* Basisopmaak h1, h2, h3, p en a */
-h1 {
-	font-size: var(--h1);
-	font-weight: var(--lichtGewicht);
-}
-
-h2 {
-	font-size: var(--h2);
-	font-weight: var(--lichtGewicht);
-}
-
-h3 { 
-	font-size: var(--h3);
-	font-weight: var(--lichtGewicht);
-}
-
-p {
-	font-size: var(--normaleTekst);
-}
-
-a { 
-	font-size: var(--aNormaal);
-	color: var(--zwarteTekst); 
-	text-decoration: none;
-}
