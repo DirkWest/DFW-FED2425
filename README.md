@@ -220,5 +220,6 @@
 
 https://bobdewebbouwer.com/gradient-verloopkleur-met-css/#:~:text=CSS3%20gradi%C3%ABnt,oranje%20(kleurcode%20%23ff5d00).
 
+https://www.shecodes.io/athena/81076-how-to-hide-an-html-element-using-css#:~:text=By%20setting%20the%20value%20of,any%20space%20on%20the%20page.
 
 </details>
